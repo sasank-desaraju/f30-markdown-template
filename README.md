@@ -2,6 +2,7 @@
 
 The GitHub repository, or project folder, shows how I structured my NIH F30 grant.
 I hope this can help you find a setup for yourself that is easier and faster.
+[YouTube video](https://www.youtube.com/watch?v=oi-B7zu8M8g)
 
 ## Motivation
 
