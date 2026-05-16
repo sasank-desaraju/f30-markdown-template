@@ -30,7 +30,8 @@ The mentors mentioned are the names of great scientists playing made-up characte
 ## Setup
 
 Setting this up involves some technical steps that not everyone is familiar with.
-Luckily, the details are all packed within [[SETUP.md]], which you can feed into an LLM to help guide you.
+Luckily, the details are all packed within [SETUP.md](SETUP.md), which you can feed into an LLM to help guide you.
+You can also have you AI agent give you a [GUIDED_TOUR.md](GUIDED_TOUR.md). Just ask it!
 
 ## More Details about the Ingredients
 
