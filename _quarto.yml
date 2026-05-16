@@ -1,0 +1,53 @@
+project:
+  type: default
+  output-dir: build
+  render:
+    - draft.qmd
+
+format:
+  pdf:
+    pdf-engine: xelatex
+    documentclass: article
+    fontsize: 11pt
+    mainfont: "Arial"
+    geometry:
+      - margin=0.5in
+    linestretch: 0.90
+    number-sections: false
+    toc: false
+    colorlinks: false
+    cite-method: citeproc
+    bibliography: refs/f30.bib
+    csl: vancouver.csl
+    cap-location: bottom
+    fig-pos: "htbp"
+    include-in-header:
+      - text: |
+          \setlength{\parindent}{0pt}
+          \setlength{\parskip}{2pt}
+          \usepackage[font=scriptsize]{caption}
+          \setlength{\belowcaptionskip}{2pt}
+          \setlength{\textfloatsep}{6pt}
+          \setlength{\floatsep}{4pt}
+          \setlength{\intextsep}{4pt}
+          \usepackage{pdfpages}
+          \usepackage[table]{xcolor}
+          \usepackage{array}
+          \usepackage{colortbl}
+          \usepackage{makecell}
+          \usepackage{multirow}
+          \makeatletter
+          \renewcommand\section{\@startsection{section}{1}{\z@}{1ex}{0.5ex}{\normalfont\Large\bfseries}}
+          \renewcommand\subsection{\@startsection{subsection}{2}{\z@}{1ex}{0.5ex}{\normalfont\large\bfseries}}
+          \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}{1ex}{0.5ex}{\normalfont\normalsize\bfseries}}
+          \renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}{1ex}{0.5ex}{\normalfont\normalsize\bfseries}}
+          \makeatother
+          \usepackage[normalem]{ulem}
+          \ULdepth=.55ex
+          \renewcommand\ULthickness{0.4pt}
+          \providecommand{\ul}[1]{\uline{#1}}
+  docx:
+    reference-doc: reference.docx
+    bibliography: refs/f30.bib
+    csl: vancouver.csl
+

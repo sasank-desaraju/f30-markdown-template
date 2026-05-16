@@ -1,0 +1,124 @@
+---
+title: "Synthetic F30 Fellowship Application Draft"
+author: "Allie Gator"
+---
+
+<!-- ============================================================ -->
+```{=latex}
+\begin{center}
+\vspace*{3cm}
+{\Huge\bfseries F30 Fellowship Application Draft}\\[1cm]
+{\Large Allie Gator}\\[0.5cm]
+{\large University of Florida}\\[2cm]
+{\normalsize Synthetic public template}
+\vspace*{2cm}
+\end{center}
+\newpage
+```
+
+<!-- COVER LETTER -->
+{{< include markdown/Cover_Letter.md >}}
+
+\newpage
+
+<!-- R&R OTHER PROJECT INFORMATION -->
+```{=latex}
+\begin{center}
+\vspace*{4cm}
+{\LARGE\bfseries R\&R Other Project Information}\\[1cm]
+{\normalsize Project Summary/Abstract $\bullet$ Project Narrative $\bullet$ References}\\
+{\normalsize Facilities \& Other Resources $\bullet$ Equipment}
+\vspace*{3cm}
+\end{center}
+\newpage
+```
+
+{{< include markdown/Summary_Abstract.md >}}
+
+\newpage
+
+{{< include markdown/Project_Narrative.md >}}
+
+\newpage
+
+{{< include markdown/10_Facilities_and_Other_Resources.md >}}
+
+\newpage
+
+{{< include markdown/11_Equipment.md >}}
+
+\newpage
+
+<!-- SENIOR/KEY PERSON PROFILE -->
+```{=latex}
+\begin{center}
+\vspace*{4cm}
+{\LARGE\bfseries Senior/Key Person Profile}\\[1cm]
+{\normalsize Biosketch source notes are maintained in biosketches/}
+\vspace*{3cm}
+\end{center}
+\newpage
+```
+
+{{< include biosketches/allie_gator_biosketch.md >}}
+
+\newpage
+
+{{< include biosketches/charles_hermite_biosketch.md >}}
+
+\newpage
+
+{{< include biosketches/emmy_noether_biosketch.md >}}
+
+\newpage
+
+{{< include biosketches/subrahmanyan_chandrasekhar_biosketch.md >}}
+
+\newpage
+
+{{< include biosketches/joseph_louis_lagrange_biosketch.md >}}
+
+\newpage
+
+<!-- PHS FELLOWSHIP SUPPLEMENTAL -->
+```{=latex}
+\begin{center}
+\vspace*{4cm}
+{\LARGE\bfseries PHS Fellowship Supplemental}\\[1cm]
+{\normalsize Candidate $\bullet$ Training Activities \& Timeline $\bullet$ Specific Aims}\\
+{\normalsize Research Strategy $\bullet$ RCR $\bullet$ Sponsor Commitment $\bullet$ Letters of Support}
+\vspace*{3cm}
+\end{center}
+\newpage
+```
+
+{{< include markdown/2_Candidate.md >}}
+
+\newpage
+
+{{< include markdown/3_3_Training_Activities_and_Timeline.md >}}
+
+\newpage
+
+{{< include markdown/3_4_Specific_Aims.md >}}
+
+\newpage
+
+{{< include markdown/3_5_Research_Strategy.md >}}
+
+\newpage
+
+{{< include markdown/3_7_RCR.md >}}
+
+\newpage
+
+{{< include markdown/4_8_Sponsor_Commitment.md >}}
+
+\newpage
+
+{{< include markdown/4_9_Letters_of_Support.md >}}
+
+\newpage
+
+::: {#refs}
+:::
