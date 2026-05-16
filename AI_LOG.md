@@ -14,3 +14,4 @@ This file is for AI agents to log what they do, so it's easier for you to keep a
 - Updated `GUIDED_TOUR.md` to explicitly cover the `ai/` folder and `AI_LOG.md`.
 - Fixed CTSI wrapper include paths so submission-style section exports resolve from the temporary Quarto build directory.
 - Updated `GUIDED_TOUR.md` to include `other/Fellowship Instructions for NIH and Other PHS Agencies.pdf` as the official NIH/PHS instructions reference.
+- Updated `SETUP.md` to have agents discuss fork, clone, template-copy, and privacy choices before setup.

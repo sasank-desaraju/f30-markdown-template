@@ -7,10 +7,49 @@ It is written for a technical user or an AI coding agent helping a non-technical
 
 1. Read `AGENTS.md`.
 2. Read `ai/README.md`, `ai/PROJECT_INFO.md`, and `ai/STYLE_GUIDE.md`.
-3. Confirm tool availability with the checks below.
-4. Treat `markdown/` as the source of truth.
-5. Treat `docx/`, `pdf/`, `build/`, and `submission_pdfs/` as generated outputs.
-6. For substantial edits, update `AI_LOG.md`.
+3. If the user has not already made their own copy, discuss whether they should fork, clone, or use a template copy before giving commands.
+4. Confirm tool availability with the checks below.
+5. Treat `markdown/` as the source of truth.
+6. Treat `docx/`, `pdf/`, `build/`, and `submission_pdfs/` as generated outputs.
+7. For substantial edits, update `AI_LOG.md`.
+
+## Getting Your Own Copy
+
+Before installing tools or editing files, the agent should briefly ask the user how they want to use this repository.
+Do not assume the right GitHub workflow, especially if the user has never used Git before.
+
+Ask something like:
+
+> Do you want your own GitHub copy that you can modify and share, or do you just want a local copy on your computer for now?
+
+Use this guidance:
+
+- Fork the repository if the user wants their own GitHub copy while preserving a visible link back to the original project.
+- Use GitHub's "Use this template" flow if the repository is configured as a template and the user wants a clean new grant repository without fork history.
+- Clone the repository if the user only needs a local working copy, or if they have already forked or created a template copy on GitHub.
+- Download a ZIP only if the user wants to avoid Git entirely at first; explain that this makes future syncing and version history harder.
+
+For most grant writers adapting this for a real application, a template copy or private fork is usually the cleanest starting point.
+If the grant contains real unpublished science, patient-related details, sponsor letters, or personal statements, recommend a private repository.
+
+Common commands:
+
+```bash
+git clone git@github.com:sasank-desaraju/f30-markdown-template.git
+cd f30-markdown-template
+```
+
+If the user forked the repo first, replace the URL with the URL of their fork.
+If the user created a template copy, replace the URL with the URL of that new repository.
+
+After cloning, the agent should check:
+
+```bash
+git status
+git remote -v
+```
+
+If `origin` still points to the public template but the user intends to write a real grant, stop and help them create or connect a private repository before adding private material.
 
 ## Required Tools
 
